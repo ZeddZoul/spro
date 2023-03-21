@@ -1,0 +1,103 @@
+@import "./variables.scss";
+.Header {
+  display: flex;
+  background-color: #00000036;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 10%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+  left: 0;
+  .menubar {
+    display: none;
+      @media (max-width: 950px) {
+  display: block;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  &:hover{
+    color: $green;
+  }
+      }
+  }
+  img {
+    height: 50px;
+    width: 170px;
+  }
+
+  .Nav {
+      @media (max-width: 950px) {
+        display: none;
+      }
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    a {
+      padding-inline: 4px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+      &.btn{
+        padding: 8px 16px;
+        color: white;
+        border-radius: 4px;
+      }
+      &.login{
+        outline: 2px solid white;
+      }
+      &.signup{
+       background-color: $green;
+      }
+    }
+  }
+
+    .showMenu{
+  @media (max-width:950px) {
+      display: flex;
+    flex-direction: column;
+    padding: 2% 8%;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    gap: 5px;
+    left: 50%;
+    background-color:#302E2E;
+    color: $black;
+    transform: translate(-50%, -40%);
+    justify-content: unset;
+    align-items: unset;
+    animation: all .25s linear;
+    @keyframes all{
+from{
+  left: 100%;
+  opacity: .5;
+}
+to{
+  left: 50%;
+  opacity:1;
+}
+
+    }
+    a{
+      padding: 10px;
+      &.btn, &.login, &.signup{
+        font-size: 15px;
+        padding: 10px;
+        outline: none;
+        background: transparent;
+        
+      }
+      &:hover{
+        background-color: #505352;
+        transition: background-color .15s linear;
+        border-radius: 4px;
+      }
+    }
+  }
+  }
+}

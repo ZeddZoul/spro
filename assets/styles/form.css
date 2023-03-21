@@ -1,0 +1,86 @@
+.BG {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top right, rgba(82, 80, 80, 0.368627451), rgba(0, 0, 0, 0.7019607843)), url(../../public/2.jpg);
+  background-size: cover;
+}
+.BG .FormWrapper {
+  background-color: white;
+  width: 75%;
+  max-width: 520px;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(199, 197, 197, 0.944);
+}
+@media (max-width: 600px) {
+  .BG .FormWrapper {
+    width: 90%;
+  }
+}
+.BG .FormWrapper > div {
+  text-align: center;
+}
+.BG .FormWrapper > div h2 {
+  color: rgba(45, 43, 43, 0.8509803922);
+}
+.BG .FormWrapper > div p {
+  color: grey;
+}
+.BG .FormWrapper form {
+  margin: auto;
+}
+.BG .FormWrapper form input {
+  display: block;
+  margin-block: 5px;
+  height: 35px;
+  width: 100%;
+  border: 1px solid #7367F0;
+  font-size: 15px;
+}
+.BG .FormWrapper form input[type=submit] {
+  background-color: #7367F0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: background 0.25s linear;
+  cursor: pointer;
+}
+.BG .FormWrapper form input[type=submit]:hover {
+  background-color: #5e50ee;
+}
+.BG .FormWrapper form input[type=checkbox] {
+  width: initial;
+  height: initial;
+  display: inline;
+}
+.BG .FormWrapper form > span {
+  display: block;
+  margin-block: 10px;
+}
+.BG .FormWrapper form > span span {
+  display: flex;
+  justify-content: space-between;
+}
+.BG .FormWrapper form > span span a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #7367F0;
+  text-decoration: underline;
+}
+.BG .FormWrapper form > span label {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: grey;
+}
+.BG .FormWrapper form > span label a {
+  color: #7367F0;
+}
+.BG .FormWrapper form #check {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}/*# sourceMappingURL=form.css.map */

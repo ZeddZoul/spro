@@ -1,0 +1,46 @@
+.Sidebar {
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  gap: 10px;
+  width: max-content;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #283046;
+  transition: width 0.25s linear;
+  font-size: small;
+  padding: 10px;
+  &:hover a > p {
+    transition: all 0.25s linear;
+    width:150px;
+    visibility: visible;
+    opacity: 1;
+  }
+  // a:first-child {
+  //   margin-left: 7px;
+  //   width: max-content;
+  // }
+  a {
+    color: white;
+    padding: 15px;
+    transition: all 0.25s linear;
+    border-radius: 4px;
+    display: flex;
+    gap: 8px;
+    align-items: last baseline;
+   height: 51px;
+    i {
+      font-size: 15px;
+    }
+    p {
+      transition: width 0.25s linear;
+      width: 0;
+      visibility: hidden;
+      opacity: 0;
+     
+    }
+    &:hover {
+      background-color: lighten($color: #283046, $amount: 5);
+    }
+  }
+}

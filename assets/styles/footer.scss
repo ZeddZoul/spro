@@ -1,0 +1,40 @@
+
+.Footer{
+  background: #1F1F24;
+  padding: 10px;
+  color: white;
+  p, li+li{
+    color: grey;
+  }
+  >p{
+    padding: 30px 12%;
+    font-size: 14px;
+  }
+  section{
+    padding-block: 30px;
+    padding-inline: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    ul{
+      min-width: 115px;
+      @media (max-width:800px) {
+        width: 45%;
+      }
+    }
+    li{
+      font-size: 14px;
+      margin-block: 15px;
+      width: max-content;
+
+      h3{
+        font-weight: 500;
+      }
+    }
+  }
+  small{
+    text-align: center;
+    display: block;
+  }
+}

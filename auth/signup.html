@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../assets/styles/globals.css" />
+     <link rel="stylesheet" href="../assets/styles/form.css" />
+  <title>Signup | Secure pro</title>
+</head>
+<body>
+   <div class="BG">
+      <div class="FormWrapper">
+        <div>
+          <a href="/">
+            <Image src={logo} alt="" height={50} weight={50} />
+          </a>
+          <h2>Welcome</h2>
+          <p>Please sign-in to your account</p>
+        </div>
+        <form action="">
+          <span>
+            
+            <label or="username">Username</label>
+            <input
+              required
+              type="text"
+              name="username"
+              id="username"
+             
+            />
+          </span>
+          <span>
+            
+            <label for="email">Email</label>
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+           
+            />
+          </span>
+          <span>
+            <label for="password">Password</label>
+            <input
+              required
+              type="password"
+              name="password"
+              id="password"
+        
+            />
+          </span>
+          <span>
+            <label for="confpassword">Confirm password</label>
+            <input
+              required
+              type="password"
+              name="confpassword"
+              id="confpassword"
+             
+            />
+          </span>
+          <span id="check">
+            
+            <input
+              type="checkbox"
+              name="accept"
+              value="accept"
+              id="accept"
+            />
+            <label for="accept">
+              I agree to the <a href="#">terms of service</a> and
+              <a href="#">Privacy Policy</a>
+            </label>
+          </span>
+          <input type="submit" value="SIGN UP" />
+        </form>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.Sidebar {
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  gap: 10px;
+  width: -moz-max-content;
+  width: max-content;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #283046;
+  transition: width 0.25s linear;
+  font-size: small;
+  padding: 10px;
+}
+.Sidebar:hover a > p {
+  transition: all 0.25s linear;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+}
+.Sidebar a {
+  color: white;
+  padding: 15px;
+  transition: all 0.25s linear;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  align-items: last baseline;
+  height: 51px;
+}
+.Sidebar a i {
+  font-size: 15px;
+}
+.Sidebar a p {
+  transition: width 0.25s linear;
+  width: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.Sidebar a:hover {
+  background-color: #313b56;
+}/*# sourceMappingURL=sidebar.css.map */

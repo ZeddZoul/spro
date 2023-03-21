@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./assets/js/menu.js"></script>
+    <script defer src="./assets/js/intersectionObserverApi.js"></script>
+    <link rel="stylesheet" href="./assets/styles/globals.css" />
+    <link rel="stylesheet" href="./assets/styles/nav.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="stylesheet" href="./assets/styles/hero.css" />
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
+    <script src="https://kit.fontawesome.com/dd22d22299.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/smalllogo.png" />
+    <title>Secure pro</title>
+  </head>
+  <body>
+  
+
+     <div class="Hero">
+        <header class="Header">
+      <img src="" alt="LOGO" placeholder="blur" />
+      <nav class="Nav">
+        <a href="/">Home</a>
+        <a href="/">Market</a>
+        <a href="/">Trading</a>
+        <a href="/">Account Types</a>
+        <a class="login btn" href="/auth/login.html"> Log in </a>
+        <a class="btn signup" href="/auth/signup.html"> Sign up </a>
+      </nav>
+      <i onclick="menu()" class="fas fa-bars menubar"> menu</i>
+        </header>
+      <div class="Banner">
+        <h1>TRADE SHARES AND FOREX WITH FINANCIAL THINKING </h1>
+        <p>
+          Access 40,000+ instruments – across asset classes – to trade, hedge
+          and invest from a single account.
+        </p>
+        <Link href="/auth/signup.html" >Open An Account</Link>
+      </div>
+    </div>
+    <!-- main section -->
+    <section class="Fold1">
+      <span class="take">
+        <h2>Trade With Low Commision And Tight Spreads</h2>
+        <p>
+          With secure Pro Market you get a transparent pricing structure and a
+          secure and regulated trading environment. As an active trader you can
+          also qualify for lower fees and extra benefits.
+        </p>
+        <a href="/">See our packages</a>
+      </span>
+      <img class="take" src="/public/sed.webp" alt="" />
+    </section>
+    <section class="Fold2">
+      <h2>INDUSTRY LEADING PRICES</h2>
+      <p>
+        Get ultra-competitive spreads and commissions across all asset classes.
+        Receive even better rates as your volume increases.
+      </p>
+      <div class="prices">
+        <div class="take card" data-title="FX">
+          <p>Spread as low as</p>
+          <span>
+           
+            <h3>0.2</h3>
+            <p>pip</p>
+          </span>
+          <p>
+            Trade 182 FX spot pairs and 140 forwards across majors, minors,
+            exotics and metals
+          </p>
+        </div>
+        <div class="take card" data-title="Crypto">
+          <p>Trade From</p>
+          <span>
+    
+            <h3>0.4</h3>
+            <p>on $500</p>
+          </span>
+          <p>
+            Trade and invest confidently in top performing Cryptocurrencies with
+            our timely Trading signals that ensure your profitability from day
+            one.
+          </p>
+        </div>
+        <div class="take card" data-title="Stocks">
+          <p>commissions from</p>
+          <span>
+         
+            <h3>$3</h3>
+            <p>on all stocks</p>
+          </span>
+          <p>
+            Access 19,000+ stocks across core and emerging markets on 36
+            exchanges worldwide.
+          </p>
+        </div>
+        <div class="take card" data-title="Real Estate">
+          <p>Procure for as low as</p>
+          <span>
+          
+            <h3>$100</h3>
+            <p>per slot</p>
+          </span>
+          <p>
+            Simplified Real Estate investment for relatively small amounts
+            through our crowdfunding model..
+          </p>
+        </div>
+      </div>
+      <div class="take start">
+        <p>With the little you have tried, join now!</p>
+        <a href="/auth/signup.html">Start Trading</a>
+      </div>
+      <div class="take details" >
+        <span>
+          <i class="fa-solid fa-headphones"></i>
+          <p>AWARD WINNING SUPPORT</p>
+        </span>
+        <span>
+          <i class="fa-solid fa-building-columns"></i>
+          <p>REGULATED BY THE GSE,USA</p>
+        </span>
+        <span>
+         <i class="fa-regular fa-clock"></i>
+          <p>30 YEARS EXPERIENCE</p>
+        </span>
+      </div>
+    </section>
+    <section class="Fold3">
+      <h2>COMPLETE PACKAGES FOR EVERY TRADER</h2>
+      <div class="pkgs">
+        <div class="take card">
+          <h3>MINIMUM FUNDING <mark>$1000</mark></h3>
+          <p>Starter</p>
+          <hr />
+          <ul>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> 10% Deposit Bonus
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Negative Balance
+              Protection
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Scalping
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Financial Plan
+            </li>
+          </ul>
+
+          <a href="/auth/signup.html">Open An Account</a>
+        </div>
+        <div class="take card">
+          
+          <h3>MINIMUM FUNDING <mark>$5000</mark></h3>
+          <p>Classic</p>
+          <hr />
+          <ul>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> 15% Deposit Bonus
+            </li>
+            <li>
+              <i class="fa-regular fa-circle-check"></i> Negative Balance
+              Protection
+            </li>
+            <li><i class="fa-regular fa-circle-check"></i> Scalping</li>
+            <li><i class="fa-regular fa-circle-check"></i> Financial Plan</li>
+          </ul>
+          <a href="/auth/signup.html">Open An Account</a>
+        </div>
+        <div class="take card">
+          
+          <h3>MINIMUM FUNDING <mark>$10000</mark></h3>
+          <p>Pro</p>
+          <hr />
+          <ul>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> 25% Deposit Bonus
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Negative Balance
+              Protection
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Scalping
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Financial Plan
+            </li>
+          </ul>
+          <a href="/auth/signup.html">Open An Account</a>
+        </div>
+        <div class="take card">
+          
+          <h3>MINIMUM FUNDING <mark>$50000</mark></h3>
+          <p>Executive</p>
+          <hr />
+          <ul>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> 35% Deposit Bonus
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Negative Balance
+              Protection
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Scalping
+            </li>
+            <li>
+              
+              <i class="fa-regular fa-circle-check"></i> Financial Plan
+            </li>
+          </ul>
+          <a href="/auth/signup.html">Open An Account</a>
+        </div>
+      </div>
+    </section>
+    <section class="Fold4">
+      <div class="take">
+        <h2>900,000+</h2>
+        <p>Daily trades</p>
+      </div>
+      <hr />
+      <div class="take">
+        
+        <h2>750,000+</h2>
+        <p>Clients</p>
+      </div>
+      <hr />
+      <div class="take">
+        
+        <h2>20 billion+</h2>
+        <p>USD daily trade volume</p>
+      </div>
+      <hr />
+      <div class="take">
+        
+        <h2>95 billion+</h2>
+        <p>USD assets under management</p>
+      </div>
+    </section>
+    <section class="Fold5">
+      <h2 class="take">SWITCH TO SECURE PRO MARKET</h2>
+      <p class="take">
+        At secure Pro Market we work hard to enhance your trading experience. As
+        a global, 5 star rated broker, our client&quot;s satisfaction is in the
+        center of our focus.
+      </p>
+      <div>
+        <div class="take card">
+        <i class="fa-solid fa-briefcase"></i>
+          <h3>2100+ INSTRUMENTS</h3>
+          <p>
+            Wide range of global markets, including Forex, Indices, Commodities,
+            ETFs and more.
+          </p>
+        </div>
+        <div class="take card">
+          
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>SAFE & SECURE</h3>
+          <p>
+            Secure Pro Market is regulated by the world&quot;s biggest
+            supervision authorities, including the Financial Conduct Authority
+          </p>
+        </div>
+        <div class="take card">
+      <i class="fa-solid fa-book-open-reader"></i>
+          <h3>COMPREHENSIVE EDUCATION</h3>
+          <p>
+            Make use of our extensive video library and get to know more about
+            trading.
+          </p>
+        </div>
+        <div class="take card">
+          <i class="fa-solid fa-money-bill"></i>
+          <h3>INNOVATIVE PLATFORM</h3>
+          <p>
+            We are constantly improving our trading platform to make it the best
+            on the market.
+          </p>
+        </div>
+        <div class="take card">
+          <i class="fa-solid fa-users-line"></i>
+          <h3>495,000+ CUSTOMERS</h3>
+          <p>
+            With years of activity in the financial markets, secure Pro Market
+            has gained thousands of customers.
+          </p>
+        </div>
+        <div class="take card">
+          <i class="fa-solid fa-comment"></i>
+          <h3>FAST & HIGHLY QUALIFIED SUPPORT</h3>
+          <p>
+            Our multilingual customer support team is ready to help you - 24h
+            hours a day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Fold6">
+      <p class="take">DEPOSIT WITH CRYPTO</p>
+      <h3 class="take">WE ACCEPT CRYPTO DEPOSITS</h3>
+      <p class="take">
+        DEPOSIT, WITHDRAW AND HOLD YOUR BALANCE IN BITCOIN, ETHEREUM
+      </p>
+
+      <a class="take" href="/auth/signup.html"> Get started </a>
+    </section>
+
+    <section class="Fold7">
+      <div class="take">
+        <h2>Free Demo And Live MT4 Accounts</h2>
+        <p>
+          Instant market access and endless possibilities for trading, analysis
+          and automation. Metaquotes 5 is an evolution of MT4 with additional
+          features that supercharge your trading.
+        </p>
+        <a href="/auth/signup.html">Open An Account</a>
+      </div>
+      <img class="take" src="/public/latest.jpg" alt=" " />
+    </section>
+
+    <section class="Fold8">
+      <h2>WE ARE TRUSTED</h2>
+      <div>
+        <div class="take card">
+          <img src="/public/1.png" alt="" />
+          <h2>8.9</h2>
+        </div>
+        <div class="take card">
+          <img src="/public/2.png" alt="" />
+          <h2>7.9</h2>
+        </div>
+        <div class="take card">
+          <img src="/public/3.png" alt="" />
+          <h2>9.0</h2>
+        </div>
+        <div class="take card">
+          <img src="/public/4.png" alt="" />
+          <h2>7.4</h2>
+        </div>
+        <div class="take card">
+          <img src="/public/5.png" alt="" />
+          <h2>8.0</h2>
+        </div>
+        <div class="take card">
+          <img src="/public/6.png" alt="" />
+          <h2>8.7</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="Fold9">
+      <div class="take card">
+        <div>
+          <img src="/public/team1.jpg" alt="" />
+          <span>
+            <h3>SCOTT SMITH</h3>
+            <span>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+            </span>
+          </span>
+        </div>
+        <p>
+          I am an engineer in Washington DC when an account manager KLOE AURORA
+          brought this opportunity to me I just said casually to invest with
+          $500 but my story today is on a premium plan.
+        </p>
+      </div>
+      <div class="take card">
+        <div>
+          <img src="/public/team2.jpg" alt="" />
+          <span>
+            <h3>ALEX GYSON</h3>
+            <span>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+            </span>
+          </span>
+        </div>
+        <p>
+          I have only been a member for a few months and i have already earned a
+          decent amount of money. Finally a real and honest company that does
+          what it says. Thank you so much for this great opportunity!
+        </p>
+      </div>
+      <div class="take card">
+        <div>
+          <img src="/public/team3.jpg" alt="" />
+          <span>
+            <h3>RUKKY SANDERS</h3>
+            <span>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+              <i icon="{faStar}">*</i>
+            </span>
+          </span>
+        </div>
+        <p>
+          Secure Pro Market runs a quick and reliable system. It feels great to
+          know that I Can always trust their support system to come through for
+          me. Their response speed is prompt and the delivery precise to the
+          last detail.
+        </p>
+      </div>
+    </section>
+
+    <section class="Fold10">
+      <div>
+        <h2>Trusted for more than 7 years</h2>
+        <p>
+          Secure Pro Market is an online Forex and cryptocurrency STP broker
+          providing CFD trading on hundreds of assets and optimal trading
+          conditions within the award-winning MT4 platform. secure Pro Market
+          offers deep liquidity, generous leverage up to 1:500, and some of the
+          best spreads in the industry. As part of our commitment to our
+          client’s satisfaction, we offer 24/7 live customer service, charge no
+          deposit or withdrawal fees, and process withdrawals within 30-minutes
+          or less. We feel that these, along with many other advantages, help to
+          set us apart from the rest.
+        </p>
+
+        <h3>Multi-award winner</h3>
+        <hr />
+        <div>
+          <span class="take">
+            <img src="/public/award.svg" alt="" />
+            <span>
+              <h4>Best CFD Broker</h4>
+              <p>TradeON Summit 2020</p>
+            </span>
+          </span>
+          <span class="take">
+            <img src="/public/award.svg" alt="" />
+            <span>
+              <h4>Best CFD Broker</h4>
+              <p>TradeON Summit 2020</p>
+            </span>
+          </span>
+          <span class="take">
+            <img src="/public/award.svg" alt="" />
+            <span>
+              <h4>Best CFD Broker</h4>
+              <p>TradeON Summit 2020</p>
+            </span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="sponsors">
+      <p>As seen on</p>
+    </div> -->
+    <section class="Fold11">
+      <h2>FOUR STEPS TO START TRADING</h2>
+      <div class="steps">
+        <div class="card take">
+          <img src="/public/1_2.svg" alt="" />
+          <h4>Registration</h4>
+          <p>Open your live trading account after registration</p>
+        </div>
+        <div class="card take">
+          <img src="public/2_2.svg" alt="" />
+          <h4>Verify</h4>
+          <p>Upload your documents to activate your account</p>
+        </div>
+        <div class="card take">
+          <img src="public/3_2.svg" alt="" />
+          <h4>Fund</h4>
+          <p>Log in to your account and make a deposit</p>
+        </div>
+        <div class="card take">
+          <img src="./public/4_2.svg" alt="" />
+          <h4>Trade</h4>
+          <p>Start trading using over 250 different trading tools</p>
+        </div>
+      </div>
+      <h2>Open Your Account</h2>
+      <p>
+        Connect with over 450,000 investors in the world’s leading FX Broker
+      </p>
+      <a href="/auth/signup.html">Start Trade</a>
+    </section>
+
+    <!-- Footer -->
+      <div class="Footer">
+      <section>
+        <ul>
+          <li>
+            <h3>Markets</h3>
+          </li>
+          <li>Forex</li>
+          <li>Cryptos</li>
+          <li>Shares</li>
+          <li>Indices</li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Trading</h3>
+          </li>
+          <li>Platform</li>
+          <li>Pricing</li>
+          <li>PAMM</li>
+          <li>FAQ</li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Company</h3>
+          </li>
+          <li>Why Us</li>
+          <li>Contact Us</li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Account</h3>
+          </li>
+          <li>Login</li>
+          <li>Sign Up</li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Legal</h3>
+          </li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </section>
+      <hr />
+      <p>
+        This website can be accessed worldwide however the information on the
+        website is related to secure Pro Market A/S and is not specific to any
+        entity of secure Pro Market. All clients will directly engage with
+        secure Pro Market A/S and all client agreements will be entered into
+        with secure Pro Market A/S .
+        <br />
+        <br />
+        Forex and CFDs are leveraged products and can result in losses that
+        exceed your deposits. Please ensure you fully understand all of the
+        risks. Contracts for Difference (&quot;CFDs&quot;) are leveraged
+        products and carry a significant risk of loss to your capital, as prices
+        may move rapidly against you and you may be required to make further
+        payments to keep any trades open. These products are not suitable for
+        all clients, therefore please ensure you fully understand the risks and
+        seek independent advice.
+        <br /> <br />
+        Apple and the Apple logo are trademarks of Apple Inc, registered in the
+        US and other countries and regions. App Store is a service mark of Apple
+        Inc. Google Play and the Google Play logo are trademarks of Google LLC.
+      </p>
+      <hr />
+      <br />
+      <small>Copyright &copy; All Rights Reserved</small>
+    </div>
+  </body>
+</html>

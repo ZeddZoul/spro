@@ -1,0 +1,36 @@
+.Hero {
+  position: relative;
+  padding-top: 15%;
+  background-image: linear-gradient(to top right, #23232620, #121212c0),
+    url("../../public/1.jpg");
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  .Banner {
+    display: flex;
+    height: 70%;
+    gap:  5%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    h1 {
+      padding-inline: 5%;
+      font-size: 48px;
+      @media (max-width: 800px) {
+           padding-inline: 3%;
+        font-size: 28px;
+      }
+    }
+    a{
+      color: white;
+      padding: 12px 24px;
+      outline: 2px solid white;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.Layout {
+  display: flex;
+  position: relative;
+}
+.Layout > div {
+  width: 100%;
+  margin-left: 78px;
+}/*# sourceMappingURL=layout.css.map */
